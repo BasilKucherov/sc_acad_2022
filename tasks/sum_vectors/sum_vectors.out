@@ -1,0 +1,55 @@
+Sender: LSF System <lsfadmin@polus-c4-ib.bmc.hpc.cs.msu.ru>
+Subject: Job 895874: <./sum_vectors> in cluster <MSUCluster> Done
+
+Job <./sum_vectors> was submitted from host <polus-ib.bmc.hpc.cs.msu.ru> by user <edu-acad2022-209> in cluster <MSUCluster> at Thu Sep 29 20:47:07 2022
+Job was executed on host(s) <polus-c4-ib.bmc.hpc.cs.msu.ru>, in queue <normal>, as user <edu-acad2022-209> in cluster <MSUCluster> at Thu Sep 29 20:47:08 2022
+</home_edu/edu-acad2022-/edu-acad2022-209> was used as the home directory.
+</home_edu/edu-acad2022-/edu-acad2022-209/sc_acad_2022/sum_vectors> was used as the working directory.
+Started at Thu Sep 29 20:47:08 2022
+Terminated at Thu Sep 29 21:33:55 2022
+Results reported at Thu Sep 29 21:33:55 2022
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./sum_vectors
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   2807.59 sec.
+    Max Memory :                                 12299 MB
+    Average Memory :                             10046.68 MB
+    Total Requested Memory :                     -
+    Delta Memory :                               -
+    Max Swap :                                   -
+    Max Processes :                              3
+    Max Threads :                                6
+    Run time :                                   2807 sec.
+    Turnaround time :                            2808 sec.
+
+The output (if any) follows:
+
+Arr size: 4294967296
+Arr len: 536870912
+
+Max error idx = 104745850: 0.471540 -- 0.471540
+Max error = 3.175238E-14
+Avg error = 5.649889E-16
+
+GPU D2H memory copy time: 140.398270 ms
+GPU A and B initialization time: 20.460129 ms
+GPU C calculation time: 590.984131 ms
+GPU total calculation time time: 611.444275 ms
+GPU total time: 751.842529 ms
+
+CPU A and B initialization time: 61687.015625 ms
+CPU C calculation time: 2738213.500000 ms
+CPU total time: 2799900.500000 ms
+
+Acceleration (only calculation): 3724.1x (4579.2x)
+
+no error

@@ -1,0 +1,74 @@
+Sender: LSF System <lsfadmin@polus-c3-ib.bmc.hpc.cs.msu.ru>
+Subject: Job 895832: <# this file was automaticly created by mpisubmit.pl script for edu-acad2022-209 #;source /polusfs/setenv/setup.SMPI;#BSUB -n 1;#BSUB -W 00:15;#BSUB -gpu "num=1:mode=exclusive_process";#BSUB -o run_fair.%J.out;#BSUB -e run_fair.%J.err;OMP_NUM_THREADS=1 mpiexec ./run_fair> in cluster <MSUCluster> Done
+
+Job <# this file was automaticly created by mpisubmit.pl script for edu-acad2022-209 #;source /polusfs/setenv/setup.SMPI;#BSUB -n 1;#BSUB -W 00:15;#BSUB -gpu "num=1:mode=exclusive_process";#BSUB -o run_fair.%J.out;#BSUB -e run_fair.%J.err;OMP_NUM_THREADS=1 mpiexec ./run_fair> was submitted from host <polus-ib.bmc.hpc.cs.msu.ru> by user <edu-acad2022-209> in cluster <MSUCluster> at Thu Sep 29 13:23:05 2022
+Job was executed on host(s) <polus-c3-ib.bmc.hpc.cs.msu.ru>, in queue <short>, as user <edu-acad2022-209> in cluster <MSUCluster> at Thu Sep 29 13:23:05 2022
+</home_edu/edu-acad2022-/edu-acad2022-209> was used as the home directory.
+</home_edu/edu-acad2022-/edu-acad2022-209/sc_acad_2022/task_1> was used as the working directory.
+Started at Thu Sep 29 13:23:05 2022
+Terminated at Thu Sep 29 13:23:24 2022
+Results reported at Thu Sep 29 13:23:24 2022
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+# this file was automaticly created by mpisubmit.pl script for edu-acad2022-209 #
+source /polusfs/setenv/setup.SMPI
+#BSUB -n 1
+#BSUB -W 00:15
+#BSUB -gpu "num=1:mode=exclusive_process"
+#BSUB -o run_fair.%J.out
+#BSUB -e run_fair.%J.err
+OMP_NUM_THREADS=1 mpiexec ./run_fair
+
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   69.76 sec.
+    Max Memory :                                 212 MB
+    Average Memory :                             161.60 MB
+    Total Requested Memory :                     -
+    Delta Memory :                               -
+    Max Swap :                                   -
+    Max Processes :                              5
+    Max Threads :                                16
+    Run time :                                   20 sec.
+    Turnaround time :                            19 sec.
+
+The output (if any) follows:
+
+Arr size: 104857600
+Arr len: 13107200
+
+Thread #0:
+	Start: 0
+	End: 3276800
+Thread #1:
+	Start: 3276800
+	End: 6553600
+Thread #2:
+	Start: 6553600
+	End: 9830400
+Thread #3:
+	Start: 9830400
+	End: 13107200
+Max error idx = 11630013: 0.432844 -- 0.432844
+Max error = 0.0000000000000309
+Avg error = 0.0000000000000006
+
+GPU D2H memory copy time: 13.414528 ms
+GPU calculation time: 16.307487 ms
+
+GPU total time: 29.722015 ms
+CPU calculation time: 17333.214844 ms
+Acceleration (only calculation): 583.2x (1062.9x)
+
+
+PS:
+
+Read file <run_fair.895832.err> for stderr output of this job.
+

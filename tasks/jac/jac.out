@@ -1,0 +1,66 @@
+Sender: LSF System <lsfadmin@polus-c3-ib.bmc.hpc.cs.msu.ru>
+Subject: Job 896080: <./jac_cuda> in cluster <MSUCluster> Done
+
+Job <./jac_cuda> was submitted from host <polus-ib.bmc.hpc.cs.msu.ru> by user <edu-acad2022-209> in cluster <MSUCluster> at Fri Sep 30 12:09:17 2022
+Job was executed on host(s) <polus-c3-ib.bmc.hpc.cs.msu.ru>, in queue <short>, as user <edu-acad2022-209> in cluster <MSUCluster> at Fri Sep 30 12:09:18 2022
+</home_edu/edu-acad2022-/edu-acad2022-209> was used as the home directory.
+</home_edu/edu-acad2022-/edu-acad2022-209/sc_acad_2022/jac> was used as the working directory.
+Started at Fri Sep 30 12:09:18 2022
+Terminated at Fri Sep 30 12:09:20 2022
+Results reported at Fri Sep 30 12:09:20 2022
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./jac_cuda
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   0.27 sec.
+    Max Memory :                                 4 MB
+    Average Memory :                             4.00 MB
+    Total Requested Memory :                     -
+    Delta Memory :                               -
+    Max Swap :                                   -
+    Max Processes :                              2
+    Max Threads :                                3
+    Run time :                                   1 sec.
+    Turnaround time :                            3 sec.
+
+The output (if any) follows:
+
+compare A arrs after initialization:
+Max error idx = 15596: -163.091326 -- -163.091326
+Max error = 8.526513E-14
+Avg error = 8.911608E-17
+
+
+---- RESULTS ----
+
+CPU EPS: 4.343377
+GPU EPS: 4.343377
+err: 0.000000E+00
+
+compare A arrs:
+Max error idx = 376573: -129.398841 -- -129.398841
+Max error = 1.136868E-13
+Avg error = 2.543529E-15
+
+CPU A initialization time: 5.471296 ms
+CPU JAC calculation time: 127.569313 ms
+CPU total time: 133.040604 ms
+
+
+GPU A initialization time: 0.338912 ms
+GPU JAC calculation time: 14.853728 ms
+GPU D2H time: 0.780512 ms
+GPU calculation time: 15.192640 ms
+GPU total time: 15.973152 ms
+
+Acceleration (only calculation): 8.3x (8.8x)
+
+no error

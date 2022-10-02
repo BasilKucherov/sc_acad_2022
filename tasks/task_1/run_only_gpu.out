@@ -1,0 +1,57 @@
+Sender: LSF System <lsfadmin@polus-c2-ib.bmc.hpc.cs.msu.ru>
+Subject: Job 895790: <# this file was automaticly created by mpisubmit.pl script for edu-acad2022-209 #;source /polusfs/setenv/setup.SMPI;#BSUB -n 1;#BSUB -W 00:15;#BSUB -gpu "num=1:mode=exclusive_process";#BSUB -o run_only_gpu.%J.out;#BSUB -e run_only_gpu.%J.err;OMP_NUM_THREADS=1 mpiexec ./run_only_gpu> in cluster <MSUCluster> Done
+
+Job <# this file was automaticly created by mpisubmit.pl script for edu-acad2022-209 #;source /polusfs/setenv/setup.SMPI;#BSUB -n 1;#BSUB -W 00:15;#BSUB -gpu "num=1:mode=exclusive_process";#BSUB -o run_only_gpu.%J.out;#BSUB -e run_only_gpu.%J.err;OMP_NUM_THREADS=1 mpiexec ./run_only_gpu> was submitted from host <polus-ib.bmc.hpc.cs.msu.ru> by user <edu-acad2022-209> in cluster <MSUCluster> at Thu Sep 29 10:48:45 2022
+Job was executed on host(s) <polus-c2-ib.bmc.hpc.cs.msu.ru>, in queue <short>, as user <edu-acad2022-209> in cluster <MSUCluster> at Thu Sep 29 10:48:46 2022
+</home_edu/edu-acad2022-/edu-acad2022-209> was used as the home directory.
+</home_edu/edu-acad2022-/edu-acad2022-209/sc_acad_2022/task_1> was used as the working directory.
+Started at Thu Sep 29 10:48:46 2022
+Terminated at Thu Sep 29 10:48:52 2022
+Results reported at Thu Sep 29 10:48:52 2022
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+# this file was automaticly created by mpisubmit.pl script for edu-acad2022-209 #
+source /polusfs/setenv/setup.SMPI
+#BSUB -n 1
+#BSUB -W 00:15
+#BSUB -gpu "num=1:mode=exclusive_process"
+#BSUB -o run_only_gpu.%J.out
+#BSUB -e run_only_gpu.%J.err
+OMP_NUM_THREADS=1 mpiexec ./run_only_gpu
+
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   4.64 sec.
+    Max Memory :                                 7 MB
+    Average Memory :                             5.00 MB
+    Total Requested Memory :                     -
+    Delta Memory :                               -
+    Max Swap :                                   -
+    Max Processes :                              4
+    Max Threads :                                5
+    Run time :                                   12 sec.
+    Turnaround time :                            7 sec.
+
+The output (if any) follows:
+
+Arr size: 4294967296
+Arr len: 536870912
+
+
+GPU D2H memory copy time: 2438.192139 ms
+GPU calculation time: 615.074646 ms
+
+GPU total time: 3053.266846 ms
+
+
+PS:
+
+Read file <run_only_gpu.895790.err> for stderr output of this job.
+

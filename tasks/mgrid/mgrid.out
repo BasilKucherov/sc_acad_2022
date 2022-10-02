@@ -1,0 +1,69 @@
+Sender: LSF System <lsfadmin@polus-c3-ib.bmc.hpc.cs.msu.ru>
+Subject: Job 896252: <./mgrid> in cluster <MSUCluster> Done
+
+Job <./mgrid> was submitted from host <polus-ib.bmc.hpc.cs.msu.ru> by user <edu-acad2022-209> in cluster <MSUCluster> at Sat Oct  1 18:41:17 2022
+Job was executed on host(s) <polus-c3-ib.bmc.hpc.cs.msu.ru>, in queue <short>, as user <edu-acad2022-209> in cluster <MSUCluster> at Sat Oct  1 18:41:17 2022
+</home_edu/edu-acad2022-/edu-acad2022-209> was used as the home directory.
+</home_edu/edu-acad2022-/edu-acad2022-209/sc_acad_2022/mgrid> was used as the working directory.
+Started at Sat Oct  1 18:41:17 2022
+Terminated at Sat Oct  1 18:41:34 2022
+Results reported at Sat Oct  1 18:41:34 2022
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./mgrid
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   16.26 sec.
+    Max Memory :                                 6919 MB
+    Average Memory :                             5018.40 MB
+    Total Requested Memory :                     -
+    Delta Memory :                               -
+    Max Swap :                                   -
+    Max Processes :                              3
+    Max Threads :                                6
+    Run time :                                   22 sec.
+    Turnaround time :                            17 sec.
+
+The output (if any) follows:
+
+------------------------
+Compare A arrs after init:
+Max error idx = 478413: -153.151427 -- -153.151427
+Max error = 8.526513E-14
+Avg error = 2.530507E-17
+
+------------------------
+------------------------
+Compare A arrs after calculations:
+Max error idx = 377618899: 132.845162 -- 132.845162
+Max error = 8.242296E-13
+Avg error = 2.198660E-13
+
+------------------------
+
+
+-------- RESULTS --------
+CPU EPS: 0.070316
+GPU EPS: 0.070316
+err: 0.000000E+00
+
+
+CPU A initialization time: 1087.506104 ms
+CPU JAC calculation time: 12244.119141 ms
+CPU total time: 13331.625000 ms
+
+
+GPU A initialization time: 12.647552 ms
+GPU JAC calculation time: 608.685730 ms
+GPU total time: 621.333252 ms
+
+Acceleration (only calculation): 21.5x (21.9x)
+
+no error

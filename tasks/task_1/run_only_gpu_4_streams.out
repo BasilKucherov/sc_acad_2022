@@ -1,0 +1,55 @@
+Sender: LSF System <lsfadmin@polus-c3-ib.bmc.hpc.cs.msu.ru>
+Subject: Job 895834: <# this file was automaticly created by mpisubmit.pl script for edu-acad2022-209 #;source /polusfs/setenv/setup.SMPI;#BSUB -n 1;#BSUB -W 00:15;#BSUB -gpu "num=1:mode=exclusive_process";#BSUB -o run_only_gpu_streams.%J.out;#BSUB -e run_only_gpu_streams.%J.err;OMP_NUM_THREADS=1 mpiexec ./run_only_gpu_streams> in cluster <MSUCluster> Done
+
+Job <# this file was automaticly created by mpisubmit.pl script for edu-acad2022-209 #;source /polusfs/setenv/setup.SMPI;#BSUB -n 1;#BSUB -W 00:15;#BSUB -gpu "num=1:mode=exclusive_process";#BSUB -o run_only_gpu_streams.%J.out;#BSUB -e run_only_gpu_streams.%J.err;OMP_NUM_THREADS=1 mpiexec ./run_only_gpu_streams> was submitted from host <polus-ib.bmc.hpc.cs.msu.ru> by user <edu-acad2022-209> in cluster <MSUCluster> at Thu Sep 29 13:29:32 2022
+Job was executed on host(s) <polus-c3-ib.bmc.hpc.cs.msu.ru>, in queue <short>, as user <edu-acad2022-209> in cluster <MSUCluster> at Thu Sep 29 13:29:32 2022
+</home_edu/edu-acad2022-/edu-acad2022-209> was used as the home directory.
+</home_edu/edu-acad2022-/edu-acad2022-209/sc_acad_2022/task_1> was used as the working directory.
+Started at Thu Sep 29 13:29:32 2022
+Terminated at Thu Sep 29 13:29:34 2022
+Results reported at Thu Sep 29 13:29:34 2022
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+# this file was automaticly created by mpisubmit.pl script for edu-acad2022-209 #
+source /polusfs/setenv/setup.SMPI
+#BSUB -n 1
+#BSUB -W 00:15
+#BSUB -gpu "num=1:mode=exclusive_process"
+#BSUB -o run_only_gpu_streams.%J.out
+#BSUB -e run_only_gpu_streams.%J.err
+OMP_NUM_THREADS=1 mpiexec ./run_only_gpu_streams
+
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   1.36 sec.
+    Max Memory :                                 28 MB
+    Average Memory :                             19.00 MB
+    Total Requested Memory :                     -
+    Delta Memory :                               -
+    Max Swap :                                   -
+    Max Processes :                              5
+    Max Threads :                                12
+    Run time :                                   6 sec.
+    Turnaround time :                            2 sec.
+
+The output (if any) follows:
+
+Arr size: 4294967296
+Arr len: 536870912
+
+size per stream: 1073741824
+
+GPU total time: 636.547485 ms
+
+
+PS:
+
+Read file <run_only_gpu_streams.895834.err> for stderr output of this job.
+
